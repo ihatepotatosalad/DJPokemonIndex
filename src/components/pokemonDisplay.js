@@ -1,12 +1,10 @@
 import { React, useEffect, useState } from "react"
-export default function Moves() {
-    const [data, setData] = useState('')
+export default function PokemonDisplay(props) {
+    let [view, setView] = useState(false)
     return (
         <div className="aboutpage">
 
-            <h1>Moves Page</h1>
-
-
+            <h1>display</h1>
         </div>
     )
 }
